@@ -27,16 +27,27 @@ body{
 .box input[type = "text"],.box input[type = "password"]{
   border:0;
   background: none;
+  background-image: url("ico.png");
+  background-size: 10%;
+  background-repeat: no-repeat;
+  background-position: 5px;
   display: block;
-  margin: 20px auto;
+  margin: 17px -17px;
   text-align: left;
   border: 2px solid white;
   padding: 14px 10px;
+  padding-left: 40px;
   width: 200px;
   outline: none;
   color: white;
   border-radius: 24px;
   transition: 0.25s;
+}
+.box input[type = "text"] {
+  background-image: url("login.png");
+}
+.box input[type = "password"]{
+  background-image: url("password.png");
 }
 .box input[type = "text"]:focus,.box input[type = "password"]:focus{
   /* width: 280px; */
@@ -66,5 +77,5 @@ width: 100px;
 height: 100px;
 transform: translate(0% ,-85%);
 background-color: #ff0062;
-border-radius: 50px;
+border-radius: 18px;
 }
