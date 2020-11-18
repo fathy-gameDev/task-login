@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:url("landscape.png") scroll no-repeat 61% 11%;
+  background-size: cover;
+}
+.box{
+  width: 219px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #000000d2;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 25px black;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: left;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  /* width: 280px; */
+  border-color: #ff0062;
+  box-shadow: 0 0 25px #ff0062;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #ff0062;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #ff0062;
+  box-shadow: 0 0 25px #ff0062;
+}
+.avatar{
+width: 100px;
+height: 100px;
+transform: translate(0% ,-85%);
+background-color: #ff0062;
+border-radius: 50px;
+}
