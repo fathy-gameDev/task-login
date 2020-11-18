@@ -2,8 +2,12 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background:url("landscape.png") scroll no-repeat 61% 11%;
+  background-image:url("landscape.png") ;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  background-position-x: 50%;
+  background-position-y: 50%;
 }
 .box{
   width: 219px;
