@@ -78,4 +78,6 @@ height: 100px;
 transform: translate(0% ,-85%);
 background-color: #ff0062;
 border-radius: 18px;
+box-shadow: 0 0 25px #ff0062;
+
 }
